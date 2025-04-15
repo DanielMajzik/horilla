@@ -28,7 +28,6 @@ djangorestframework
 djangorestframework-simplejwt
 drf-yasg
 et-xmlfile
-gettext
 google-api-python-client
 google-cloud-storage==3.0.0
 html5lib
@@ -50,6 +49,7 @@ pypdf
 pypng
 python-bidi
 python-dateutil
+python-gettext
 pytz
 PyYAML
 pyzk==0.9
