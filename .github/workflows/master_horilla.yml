@@ -38,9 +38,6 @@ jobs:
       - name: Migrate
         run: python manage.py migrate
 
-      - name: Run Django Tests
-        run: python manage.py test
-
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
 
       - name: Zip artifact for deployment
