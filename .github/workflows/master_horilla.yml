@@ -38,12 +38,6 @@ jobs:
       - name: Migrate
         run: python manage.py migrate
 
-      - name: Compile Messages
-        run: python manage.py compilemessages
-
-      - name: Create admin
-        run: python manage.py createhorillauser
-
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
 
       - name: Zip artifact for deployment
