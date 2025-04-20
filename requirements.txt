@@ -49,7 +49,6 @@ pypdf
 pypng
 python-bidi
 python-dateutil
-python-gettext
 pytz
 PyYAML
 pyzk==0.9
